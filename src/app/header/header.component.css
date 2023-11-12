@@ -1,0 +1,14 @@
+h2{
+    padding-left:45%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin: -8px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+mat-icon{
+    align-items: right;
+    margin-left: 38%;
+    color: rgb(175, 30, 30);
+}

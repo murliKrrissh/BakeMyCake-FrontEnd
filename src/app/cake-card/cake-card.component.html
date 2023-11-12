@@ -1,0 +1,31 @@
+<div class="cake-card">
+<mat-card id = "card-cont">
+    <img mat-card-image  width = 400px, height = 350px  src="../../assets/images/{{cake.image}}.jpg">
+<!--Header-->
+
+    <mat-card-header>
+        <mat-card-title class="Cake-Name">
+            <b>
+                <i>{{cake.name}}</i>
+            </b>
+        </mat-card-title>
+        <mat-card-subtitle>{{cake.category}} - Rs {{cake.price}}.00</mat-card-subtitle>
+    </mat-card-header>
+
+<!--Content-->
+
+    <mat-card-content class="cont">
+        <h5>
+            <b>
+                <i>Cake description</i>
+            </b> : {{cake.description}}
+        </h5>
+    </mat-card-content>
+    
+<!--Actions-->
+    <mat-card-actions>
+        <mat-icon routerLink="cake-list/{{cake.id}}" class="cart-icon" color="primary" matTooltip="add to cart">shopping_bag</mat-icon>
+    </mat-card-actions>
+
+</mat-card>
+</div>

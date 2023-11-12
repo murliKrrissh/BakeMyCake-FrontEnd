@@ -1,0 +1,13 @@
+<mat-toolbar id="header" color="primary">
+    <h1>Cakes</h1>
+</mat-toolbar>
+<div id="login-form">
+    <h3>To View the Orders list</h3>
+
+    <mat-form-field appearance="fill">
+        <input matInput type="password" name="cakeGuideCode" [(ngModel)]="cakeGuideCode" placeholder="Enter Code">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="validateCakeGuideCode()">Submit</button>
+    <h3>If you are a Visitor, <a routerLink="">click here</a></h3>
+</div>
+

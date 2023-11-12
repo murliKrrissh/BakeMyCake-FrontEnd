@@ -1,0 +1,41 @@
+<section id="cake-content">
+    <div id="cake-detail">
+        <h1><b>{{cake?.name}}</b></h1>
+        <b>{{cake?.category}} </b>
+        <img src="../../assets/images/{{cake?.image}}.jpg">
+        <p><i>{{cake?.description}}</i></p>
+    </div>
+    <form id="cake-request">
+        <h1>Order this Cake</h1>
+        <h2><b>Price Rs{{cake?.price}} only </b> - <span id="per-cake"> Per piece</span></h2>
+        <h3>Which Cake do you want!!</h3>
+        <h3>Enter your personal details</h3>
+        <!-- Name Field -->
+
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput type="text"  placeholder="Name" name="customerName" [(ngModel)] = "cakeRequest.customerName" required="true" minlength="3">
+        </mat-form-field>
+
+        <!-- Email Field -->
+
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="email"  placeholder="Email" name="customerEmail" [(ngModel)] = "cakeRequest.email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        </mat-form-field>
+
+        <!-- Mobile Field -->
+
+        <mat-form-field appearance="fill">
+            <mat-label>Phone</mat-label>
+            <input matInput type="phone"  placeholder="Phone" name="customerPhone" [(ngModel)] = "cakeRequest.mobile" required="true" pattern="[7-9]{1}[0-9]{9}">
+        </mat-form-field>
+        
+        <!-- Date Field -->
+        <mat-form-field appearance="fill">
+            <mat-label>Select Date</mat-label>
+            <input matInput type="date"  placeholder="Date" name="dateOfOrder" [(ngModel)] = "cakeRequest.dateOfOrder" >
+        </mat-form-field>
+        <button mat-flat-button color="primary" (click)="makeRequest()">Make Request</button>
+    </form>
+</section>

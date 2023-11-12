@@ -1,0 +1,28 @@
+.cake-card {
+    max-height: 800px;
+    max-width:450px;
+    margin: 30px 10px;
+    display: inline-flex;
+     flex-direction: column; 
+     justify-content: space-evenly; 
+    background-color: rgb(65, 167, 133);
+    color: #471212;
+
+}
+#mat-cont{
+    text-align: center;
+    margin: 15px;
+    padding: 12px;
+    color: #a30cf5;
+}
+
+
+.Cake-Name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-icon {
+    display: flex;
+    padding: 10px;
+}

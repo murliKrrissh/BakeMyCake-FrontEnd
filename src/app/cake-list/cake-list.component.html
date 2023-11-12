@@ -1,0 +1,13 @@
+
+<app-search id="search-note-panel" class="search" (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+
+<div >
+  <button mat-raised-button color="accent" class="new" (click)="reset(All)">all</button>
+  <button mat-raised-button color="accent" class="new" (click)="displaysorted(Cookies)">Cookies</button>
+  <button mat-raised-button color="accent" class="new" (click)="displaysorted(Cakes)">Cakes</button>
+  <button mat-raised-button color="accent" class="new" (click)="displaysorted(Brownies)">Brownies</button> 
+
+</div>
+<div><app-cake-card  *ngFor = "let cak of cakes" [cake] = "cak">
+</app-cake-card>
+</div>
