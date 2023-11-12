@@ -1,0 +1,212 @@
+{
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Chocolate Blueberries Cake",
+      "category": "cake",
+      "price": 50,
+      "image": "Chocolate Blueberries Cake",
+      "description": "A soft tender layer cake that tastes of wild blueberries, filled with a blueberry compote and wrapped in a sweet."
+    },
+    {
+      "id": 2,
+      "name": "Cookies Cream Cake",
+      "category": "cake",
+      "price": 60,
+      "image": "Cookies Cream Cake",
+      "description": " cream-filled chocolate sandwich cookies (Oreos!). Top with light and fluffy whipped cream frosting."
+    },
+    {
+      "id": 3,
+      "name": "Fruit Cake",
+      "category": "cake",
+      "price": 45,
+      "image": "Fruit Cake",
+      "description": "cake made with candied or dried fruit, nuts, and spices, and optionally soaked in spirits."
+    },
+    {
+      "id": 4,
+      "name": "Monster Theme Cake",
+      "category": "cake",
+      "price": 80,
+      "image": "Monster Theme Cake",
+      "description": "Cooking Pot using Monster Extract, Tabantha Wheat, Cane Sugar and Goat Butter. "
+    },
+    {
+      "id": 5,
+      "name": "Berries Summer Cupcakes",
+      "category": "cake",
+      "price": 40,
+      "image": "Berries Summer Cupcakes",
+      "description": "small, tasty snack cakes that are favored for their portability and portion-control."
+    },
+    {
+      "id": 6,
+      "name": "Cherry Jelly Cheesecake",
+      "category": "cake",
+      "price": 75,
+      "image": "Cherry Jelly Cheesecake",
+      "description": "Top creamy cheesecake with sweet cherries and you'll have a dessert that's sure to please."
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Cupcake",
+      "category": "cake",
+      "price": 35,
+      "image": "Chocolate Cupcake",
+      "description": "moist and bursting with rich, chocolaty flavor"
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Summer Berries",
+      "category": "cake",
+      "price": 55,
+      "image": "Chocolate Summer Berries",
+      "description": "silky Dark Milk chocolate bar is topped with strawberries, blueberries, cherries and cookie crunch."
+    },
+    {
+      "id": 9,
+      "name": "Classic Cheesecake",
+      "category": "cake",
+      "price": 70,
+      "image": "Classic Cheesecake",
+      "description": "Brick cream cheese: Four 8-ounce bricks of full-fat cream cheese."
+    },
+    {
+      "id": 10,
+      "name": "Easter Cupcakes ",
+      "category": "cake",
+      "price": 100,
+      "image": "Easter Cupcakes",
+      "description": "A light lemon cupcake is topped with a grass nest with Easter egg."
+    },
+    {
+      "id": 11,
+      "name": "Pumpkin Spice Cupcakes",
+      "category": "cake",
+      "price": 120,
+      "image": "Pumpkin Spice Cupcakes",
+      "description": "Packed with pumpkin flavor and topped with a delightful cream cheese frosting."
+    },
+    {
+      "id": 12,
+      "name": "Muffin Devil Horns",
+      "category": "cake",
+      "price": 150,
+      "image": "Muffin Devil Horns",
+      "description": "In each cupcake's frosting, place two red horns on either side to create a devilish look."
+    },
+    {
+      "id": 13,
+      "name": "Muffin Ghost",
+      "category": "cake",
+      "price": 80,
+      "image": "Muffin Ghost",
+      "description": "Ghost Cupcakes are a moist black velvet cupcake with whipped cream frosting with instant pudding and chocolate chips for eyes and a mouth!"
+    },
+    {
+      "id": 14,
+      "name": "Chocolate Cookies",
+      "category": "cookie",
+      "price": 70,
+      "image": "Chocolate Cookies",
+      "description": "Thick and chunky double chocolate chip cookies are rich and fudge-like with chewy centers, slightly crisp edges"
+    },
+    {
+      "id": 15,
+      "name": "Butter Cookies",
+      "category": "cookie",
+      "price": 50,
+      "image": "Butter Cookies",
+      "description": "Made with simple ingredients such as butter, wheat flour, sugar, and less frequently, eggs."
+    },
+    {
+      "id": 16,
+      "name": "Isometric chocolate brownies",
+      "category": "brownie",
+      "price": 150,
+      "image": "Isometric chocolate brownies",
+      "description": "These brownies with dense, fudgy middles and crinkly tops absolutely deliver! These are perfect for boxed brownie lovers"
+    },
+    {
+      "id": 17,
+      "name": "Berries Summer Cupcakes",
+      "category": "brownie",
+      "price": 200,
+      "image": "Berries Summer Cupcakes",
+      "description": "The Ultimate Cookie-Stuffed Brownies · Peanut Butter Brownie Cake · Peppermint Cloud Marshmallow Brownies·"
+    }
+  ],
+  "orderDetails": [
+    {
+      "customerName": "Cookies Cream Cake",
+      "email": "murali112@gmail.com",
+      "mobile": "6303623544",
+      "dateOfOrder": "1999-12-12",
+      "id": 1
+    },
+    {
+      "customerName": "Pumpkin Spice Cupcakes",
+      "email": "gopi@gmail.com",
+      "mobile": "9648569726",
+      "dateOfOrder": "1999-12-12",
+      "id": 2
+    },
+    {
+      "customerName": "Fruit Cake",
+      "email": "naveen@gmail.com",
+      "mobile": "6303623544",
+      "dateOfOrder": "2023-09-10",
+      "id": 3
+    },
+    {
+      "customerName": "Cookies Cream Cake",
+      "email": "jaya123@gmail.com",
+      "mobile": "6304903501",
+      "dateOfOrder": "1999-05-07",
+      "id": 4
+    },
+    {
+      "customerName": "Cookies Cream Cake",
+      "email": "mm@gmail.com",
+      "mobile": "630362588",
+      "dateOfOrder": "2023-12-12",
+      "id": 5
+    },
+    {
+      "customerName": "Chocolate Blueberries Cake",
+      "email": "nani@gmail.com",
+      "mobile": "7676803158",
+      "dateOfOrder": "1999-04-19",
+      "id": 6
+    },
+    {
+      "customerName": "Cookies Cream Cake",
+      "email": "murali@gmail.com",
+      "mobile": "9303623544",
+      "dateOfOrder": "2023-04-12",
+      "id": 7
+    },
+    {
+      "customerName": "Cookies Cream Cake",
+      "email": "vijaya@gmail.com",
+      "mobile": "9030712383",
+      "dateOfOrder": "2023-12-12",
+      "id": 8
+    },
+    {
+      "customerName": "Cookies Cream Cake",
+      "email": "murli@gmail.com",
+      "mobile": "6303623544",
+      "dateOfOrder": "2023-02-12",
+      "id": 9
+    },
+    {
+      "customerName": "Cookies Cream Cake",
+      "email": "murli@gmail.com",
+      "mobile": "+916303623544",
+      "dateOfOrder": "2023-02-12",
+      "id": 10
+    }
+  ]
+}
